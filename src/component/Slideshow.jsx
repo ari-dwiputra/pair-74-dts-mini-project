@@ -45,7 +45,6 @@ const Slideshow = () => {
         className="mySwiper"
       >
         {movies.map((movie) => {
-          console.log(movie);
           return (
             <SwiperSlide key={movie.id}>
               <Card className="boxy" sx={{ width: "100%" }}>
